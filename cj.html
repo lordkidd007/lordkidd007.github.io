@@ -1,0 +1,620 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>  
+<link rel="shortcut icon" href="http://wx.nsi-soft.com:5906/nsiOOC/images/nsi-icon.ico">
+<link rel="stylesheet" href="cj/base.css" id="camera-css">
+<link rel="stylesheet" href="cj/framework.css">
+<link rel="stylesheet" href="cj/style.css">
+<link rel="stylesheet" href="cj/jquery-alerts.css">
+<link rel="stylesheet" href="cj/jquery-ui-1.css"> 
+<link rel="stylesheet" type="text/css" href="cj/style_002.css">
+<link rel="stylesheet" type="text/css" href="cj/jquery.css">
+<link rel="stylesheet" href="cj/ui-dialog.css" type="text/css">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>北软教学管理平台 - 成绩查询</title>
+<style>
+    .yellow td{
+        background-color: yellowgreen !important;
+    }
+    .red td{
+        background-color: coral !important;
+    }
+    .xnxq_td{
+	    height: 50px;
+	    vertical-align: middle !important;
+	    border-bottom: 1px solid gray;
+	    font-size: 16px;
+	   
+    }
+    table td{
+    	background-color:white;
+    }
+    .isDg td{
+    	 background-color:#ceb5b5;
+    	 font-weight:900;
+    	 color:white;
+    }
+    .isNotDg td{
+    	
+    }
+    
+</style>
+</head>
+<body>
+
+
+
+<!-- header start here -->
+<header>
+    <div id="main-wrapper">
+        
+        
+        <!-- logo start here -->
+        <div id="logo">
+            <a href="http://wx.nsi-soft.com:5906/nsiOOC"><img src="cj/logo-kuke.png" alt="酷课网"></a>
+        </div>
+    </div>
+</header>
+<section id="pagetitle-wrapper">
+    <div class="pagetitle-content">    
+    	<h2>我的成绩</h2>
+    </div>
+</section>
+
+<section id="content-wrapper">
+	<div class="row">
+    <div class="maincontent">
+       	<div class="contentinner">
+            <div class="tabbable">
+                <ul class="nav nav-tabs">
+                    <li class="kc_li  active" data-li-index="2"><a data-toggle="tab" href="#fontawesome" class="kc_content" data-index="2">往学年学期成绩</a></li>
+                    <span style="float: right;font-size: 16px; color: blue;font-weight: bold;">
+                    	<form action="personalCenter/getMyScore.do" method="post" style="display:inline-block;*display:inline;*zoom:1;">
+                    		<input name="content_type" id="content_type" type="hidden">
+                    	</form>
+                    	2013035102018 - 杨鹏赫
+                    </span>
+                </ul>
+                <div class="tab-content">
+
+                <div id="fontawesome" class="tab-pane  active">
+                    <table class="table table-bordered">
+                        <thead id="old_grade">
+                            <tr>
+                                <th style="width:22%">课程名称</th>
+                                <th style="width:8%">课程性质</th>
+                                <th style="width:8%">任课教师</th>
+                                <th style="width:8%">正考成绩</th>
+                                <th style="width:8%">补考成绩</th>
+                                <th style="width:8%">特补成绩</th>
+                                <th style="width:8%">重修成绩</th>
+                            </tr>
+                        </thead>
+                        <tbody>	                            
+								<tr><td colspan="7" class="xnxq_td">2015 - 2016 学年 第 2 学期</td></tr>
+                                <tr class="isNotDg">
+                                    <td><span>体育修养4</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王晓宇</td>
+                                    <td><span>76</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>毕业设计</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>尹晓庆</td>
+                                    <td><span>88</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+
+                                <!-- ========================================================= -->  
+                            
+								<tr><td colspan="7" class="xnxq_td">2015 - 2016 学年 第 1 学期</td></tr>
+                                <tr class="isNotDg">
+                                    <td><span>体育修养3</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王晓宇</td>
+                                    <td><span>73</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>大学生思想政治教育4</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘健</td>
+                                    <td><span>77</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>劳动体验3</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘健</td>
+                                    <td><span>87</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>Photoshop图像设计</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>苗苗</td>
+                                    <td><span>99</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>快速建站技术</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>邵丽姝</td>
+                                    <td><span>100</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>职业技能训练</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>夏大伟</td>
+                                    <td><span>90</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>路由与交换技术</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘伟松</td>
+                                    <td><span>92</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>移动互联网技术概述</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>袁雨飞</td>
+                                    <td><span>92</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>路由与交换技术实训</span><input class="td_hidden" value="2" data-td-index="1" data-xn-xq="2015 - 2016 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘伟松</td>
+                                    <td><span>87</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <!-- ========================================== -->
+                            
+                        
+                            
+								<tr><td colspan="7" class="xnxq_td">2014 - 2015 学年 第 2 学期</td></tr>
+                                <tr class="isNotDg">
+                                    <td><span>大学生思想政治教育（3）</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>孙野 </td>
+                                    <td><span>76</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>体育修养2</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王世明 </td>
+                                    <td><span>68</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span><font style="color:red;">[选课]</font>动漫体验</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>选修课</td>
+                                    <td>张岩 </td>
+                                    <td><span>96</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>劳动体验4</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>孙野 </td>
+                                    <td><span>78</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>数据库应用技术</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>田晓光 </td>
+                                    <td><span>76</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>DREAMWEAVER网站制作</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>李阳 </td>
+                                    <td><span>84</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>计算机维护技术训练</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>孙重阳 </td>
+                                    <td><span>88</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>VISIO实用图形设计</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>曹玲玲 </td>
+                                    <td><span>83</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>LINUX网络服务应用</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘伟松 </td>
+                                    <td><span>89</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>LINUX网络服务实训</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘伟松 </td>
+                                    <td><span>81</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>网络综合实训</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>尹晓庆 </td>
+                                    <td><span>76</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+
+
+                                <tr><td colspan="7" class="xnxq_td">2014 - 2015 学年 第 1 学期</td></tr>
+                                <tr class="isNotDg">
+                                    <td><span>大学生思想政治教育2</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>孙野 </td>
+                                    <td><span>74</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>体育修养1</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王晓宇 </td>
+                                    <td><span>81</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>大数据分析实训</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>邵亚波 </td>
+                                    <td><span>75</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>视频编辑技术</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>李星华 </td>
+                                    <td><span>89</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>PYTHON编程基础</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>夏大伟 </td>
+                                    <td><span>86</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>网络互联技术</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘伟松 </td>
+                                    <td><span>78</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>333351N 综合布线工程</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>李星华 </td>
+                                    <td><span>66</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>网络互联技术实训</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>刘伟松 </td>
+                                    <td><span>86</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>AutoCAD软件应用 </span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>金延野 </td>
+                                    <td><span>94</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>Fireworks图像处理</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>李阳 </td>
+                                    <td><span>83</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span><font style="color:red;">[选课]</font>广告策划与制作</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>选修课</td>
+                                    <td>孙戈 </td>
+                                    <td><span>80</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>劳动体验</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2014 - 2015 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>孙野 </td>
+                                    <td><span>79</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+
+
+
+                                <tr><td colspan="7" class="xnxq_td">2013 - 2014 学年 第 2 学期</td></tr>
+                                <tr class="isNotDg">
+                                    <td><span>体育2</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王晓宇 </td>
+                                    <td><span>72</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>大学生思想政治教育(1)</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>罗建 </td>
+                                    <td><span>81</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span><font style="color:red;">[选课]</font>军事理论</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>选修课</td>
+                                    <td>王庆斌 </td>
+                                    <td><span>通过</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>实用英语2</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>佟艳君 </td>
+                                    <td><span>64</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>C课程设计</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>尹瑞程 </td>
+                                    <td><span>良好</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>离散数学初步 </span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>贝肇宇 </td>
+                                    <td><span>73</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>C程序设计</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>周俏丽 </td>
+                                    <td><span>73</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>计算机网络基础 </span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王作彤 </td>
+                                    <td><span>80</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr class="isNotDg">
+                                    <td><span>Flash软件应用 </span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 2 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>鲁晓荻 </td>
+                                    <td><span>良好</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+
+
+
+                                <tr><td colspan="7" class="xnxq_td">2013 - 2014 学年 第 1 学期</td></tr>
+                                <tr class="isNotDg">
+                                    <td><span>体育1</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王晓宇 </td>
+                                    <td><span>67</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>计算机基础概论 </span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>尹晓庆 </td>
+                                    <td><span>74</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>实用英语1</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>佟艳君 </td>
+                                    <td><span>60</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>微积分初步</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>贝肇宇 </td>
+                                    <td><span>60</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>入学教育</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>罗建 </td>
+                                    <td><span>68</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>军训</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>闫冬 </td>
+                                    <td><span>通过</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>计算机综合训练</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王作彤 </td>
+                                    <td><span>良好</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                
+                                <tr class="isNotDg">
+                                    <td><span>E-LEARNING信息系统应用与实践</span><input class="td_hidden" value="1" data-td-index="1" data-xn-xq="2013 - 2014 学年 第 1 学期" type="hidden"></td>
+                                    <td>必修课</td>
+                                    <td>王作彤 </td>
+                                    <td><span>良好</span></td>
+                                    <td><span>-</span></td>
+                                    <td>-</td>
+                                    <td>0</td>
+                                </tr>
+                                </tbody>
+                    </table>
+                </div>
+                </div>
+        	</div>
+		</div><!--contentinner-->
+	</div><!--maincontent-->
+  </div>
+</section>
+<footer>
+    <div class="row">
+        <div class="three columns mobile-two">
+            <a href="http://wx.nsi-soft.com:5902/nsiOOC/"><img src="cj/logo-kuke.png" alt="" class="img-left" style="width:175px;"></a>
+            <a href="http://www.qingchunhao.com:9100/" target="_blank"><img src="cj/qch-nsi.png" alt="青春号" class="img-left" style="width:150px;"></a>
+            <p class="copyright-text">© Copyright 2014-2017 ge-soft.</p>
+        </div>
+        <div class="three columns mobile-two">
+            <h5>地址</h5>
+            <ul>
+            	<li class="address-icon">沈阳市沈北新区沈北路53号（沈阳北软信息职业技术学院）110136</li>
+            	<li class="phone-icon">Phone : 024-88928718/88928719/88928720</li>
+            	<li class="email-icon">Email : ge-soft@ge-soft.com</li>
+            </ul>
+        </div>
+        <div class="three columns mobile-two">
+            <h5>单位</h5>
+            <ul>
+                <li><a href="http://www.nsi-soft.com/">关于北软<br></a></li>
+                <li><a href="http://wx.nsi-soft.com:5906/nsiOOC/lianxiwomen/index.jsp">联系我们<br></a></li>
+            </ul>
+            <h5>相关链接</h5>
+            <ul>
+            	<li><a href="http://www.ge-soft.com/">沈阳格微软件有限责任公司</a></li>
+            	<li><a href="http://www.nsi-soft.com/">沈阳北软信息职业技术学院（官网）</a></li>
+			</ul>
+        </div> 
+    </div>
+</footer></body></html>

@@ -1,0 +1,1 @@
+define(["jquery","js/urls"],function(c,b){return{tj:function(a){a=b.siteurl+b.tj+"?id="+a+"&t="+(new Date).getTime();c.get(a)}}});

@@ -1,0 +1,18 @@
+
+.modeltitle{
+    border-bottom:solid 1px #ddd;
+    font-weight:bold;
+    color:#999;
+    padding-left:10px
+}
+
+.infotitle {
+    background-color: #EDEDED;
+    height: auto;
+    padding: 3px;
+    font-size: 12px;
+    color: #666;
+    border-bottom: 1px #BBB solid;
+    margin: 0px;
+}
+

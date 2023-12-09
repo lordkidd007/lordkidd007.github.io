@@ -1,0 +1,1 @@
+define(["jquery","js/urls"],function(e,a){return{checkKeyHttps:function(b,c,d){e.getJSON(a.loginDomain+a.checkKey+"?jsoncallback=?",b,function(a){200==a.code?c(a):d(a)})},checkKey:function(b,c,d){b=a.ajaxData({url:a.loginDomain+a.checkKey,data:b},c,d);e.ajax(b)},_fakeItem:0}});
